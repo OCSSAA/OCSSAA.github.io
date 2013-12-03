@@ -1,3 +1,11 @@
+/* Colors
+
+rgb(229, 129, 62) - QC Orange
+rgb(54, 117, 174) - QC Blue
+
+*/
+
+
 /* Normal stuff */
 
 h1 {
@@ -29,6 +37,10 @@ table, td {
 	border: 1px solid #333;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* Nav stuff */
 
 nav {
@@ -55,6 +67,15 @@ nav {
 	color: rgb(65, 131, 196);
 }
 
+/* Misc */
+
+.map {
+	width: 640px;
+	padding: 2%;
+	border: 1px solid rgb(221,221,221);
+	margin: 5% auto;
+}
+
 /* Site structure */
 
 #wrapper {
@@ -75,4 +96,6 @@ nav {
 body {
 	margin: 0px;
 	width: 100%;
+	background-image: linear-gradient(to top, #FFFFFF 0%, rgb(229, 129, 62) 150%);
+	background-repeat: no-repeat;
 }
