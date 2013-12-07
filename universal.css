@@ -29,7 +29,7 @@ p {
 }
 
 table {
-	margin: 0px auto;
+	margin: 25px auto;
 	border-collapse: collapse;
 }
 
@@ -39,6 +39,15 @@ table, td {
 
 .bold {
 	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+	margin: 0px auto;
+}
+
+em {
+	color: rgb(229, 129, 62);
 }
 
 /* Nav stuff */
@@ -74,6 +83,20 @@ nav {
 	padding: 2%;
 	border: 1px solid rgb(221,221,221);
 	margin: 5% auto;
+}
+
+#pools > tbody > tr > td:nth-child(odd) {
+	background-color: rgba(54, 117, 174, 0.2) !important;
+	color: inherit !important;
+}
+
+#pools > tbody > tr > td:nth-child(odd):hover {
+	cursor: pointer;
+	background-color: rgba(54, 117, 174, 0.5) !important
+}
+
+#pools > tbody > tr:nth-child(1) > td:nth-child(odd) {
+	background-color: white !important;
 }
 
 /* Site structure */
