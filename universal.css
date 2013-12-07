@@ -15,6 +15,16 @@ h1 {
 	line-height: 1.7em;
 }
 
+.banner {
+	background-color: rgb(229, 129, 62);
+	color: white;
+	padding: 3%;
+	margin: 0px auto;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 3px solid rgb(213, 107, 40);
+}
+
 a {
 	color: rgb(65, 131, 196);
 	text-decoration: none;
@@ -41,13 +51,11 @@ table, td {
 	font-weight: bold;
 }
 
-.center {
-	text-align: center;
-	margin: 0px auto;
-}
-
-em {
-	color: rgb(229, 129, 62);
+img {
+	padding: 3%;
+	border: 1px solid rgb(221,221,221);
+	width: 94%;
+	margin: 1.5% 0px;
 }
 
 /* Nav stuff */
