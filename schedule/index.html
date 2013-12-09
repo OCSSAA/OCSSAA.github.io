@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>Schedule - OCSSAA Volleyball</title>
 		<link rel="stylesheet" href="../universal.css">
+		<script type="text/javascript" src="../jquery.js"></script>
+		<script type="text/javascript" src="../scripts.js"></script>
 	</head>
 	<body>
 		<nav>
@@ -18,187 +20,190 @@
 			</div>	
 		</nav>
 		<div id="wrapper">
-			<h1>Schedule</h1>
-			<h2>Pools</h2>
-			<p>
-				The pools table will be filled out after the teams have been ranked. This won't be until after the Christmas break.
-			</p>
-			<table cellspacing="0" cellpadding="10" border="1" id="pools">
-				<tbody>
-					<tr>
-						<td></td>
-						<td>Pool A</td>
-						<td></td>
-						<td>Pool B</td>
-						<td></td>
-						<td>Pool C</td>
-					</tr>
-					<tr>
-						<td>A1</td>
-						<td>Team1</td>
-						<td>B1</td>
-						<td>Team1</td>
-						<td>C1</td>
-						<td>Team1</td>
-					</tr>
-					<tr>
-						<td>A2</td>
-						<td>Team2</td>
-						<td>B2</td>
-						<td>Team2</td>
-						<td>C2</td>
-						<td>Team2</td>
-					</tr>
-					<tr>
-						<td>A3</td>
-						<td>Team3</td>
-						<td>B3</td>
-						<td>Team3</td>
-						<td>C3</td>
-						<td>Team3</td>
-					</tr>
-					<tr>
-						<td>A4</td>
-						<td>Team4</td>
-						<td>B4</td>
-						<td>Emmanuel</td>
-						<td>C4</td>
-						<td>Team4</td>
-					</tr>
-					<tr>
-						<td>A5</td>
-						<td>Team5</td>
-						<td>B5</td>
-						<td>Team5</td>
-						<td>C5</td>
-						<td>Team5</td>
-					</tr>
-					<tr>
-						<td>A6</td>
-						<td>Team6</td>
-						<td>B6</td>
-						<td>Team6</td>
-						<td>C6</td>
-						<td>Team6</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="banner">Click your team ID above to find when you play below.</div>
-			<h2>Schedule</h2>
-			<table cellspacing="0" cellpadding="10" border="1">
-				<tbody>
-					<tr>
-						<td>9:00</td>
-						<td></td>
-						<td>A4 vs A5</td>
-						<td></td>
-						<td>A2 vs A3</td>
-						<td></td>
-						<td>A1 vs A6</td>
-						<td></td>
-						<td>C2 vs C5</td>
-					</tr>
-					<tr>
-						<td>9:50</td>
-						<td></td>
-						<td>B3 vs B6</td>
-						<td></td>
-						<td>A2 vs A5</td>
-						<td></td>
-						<td>C1 vs C3</td>
-						<td></td>
-						<td>B1 vs B5</td>
-					</tr>
-					<tr>
-						<td>10:40</td>
-						<td></td>
-						<td>C4 vs C6</td>
-						<td></td>
-						<td>A1 vs A3</td>
-						<td></td>
-						<td>A4 vs A6</td>
-						<td></td>
-						<td>B2 vs B5</td>
-					</tr>
-					<tr>
-						<td>11:30</td>
-						<td></td>
-						<td>C2 vs C4</td>
-						<td></td>
-						<td>C1 vs C5</td>
-						<td></td>
-						<td>B1 vs B3</td>
-						<td></td>
-						<td>C3 vs C6</td>
-					</tr>
-					<tr>
-						<td>12:20</td>
-						<td></td>
-						<td>A1 vs A4</td>
-						<td></td>
-						<td>B2 vs B6</td>
-						<td></td>
-						<td>A3 vs A5</td>
-						<td></td>
-						<td>A2 vs A6</td>
-					</tr>
-					<tr>
-						<td>1:10</td>
-						<td></td>
-						<td>C2 vs C3</td>
-						<td></td>
-						<td>B3 vs B5</td>
-						<td></td>
-						<td>C4 vs C5</td>
-						<td></td>
-						<td>C1 vs C6</td>
-					</tr>
-					<tr>
-						<td>2:00</td>
-						<td></td>
-						<td>B1 vs B2</td>
-						<td></td>
-						<td>A3 vs A6</td>
-						<td></td>
-						<td>A2 vs A4</td>
-						<td></td>
-						<td>A1 vs A5</td>
-					</tr>
-					<tr>
-						<td>2:50</td>
-						<td></td>
-						<td>B2 vs B3</td>
-						<td></td>
-						<td>B5 vs B6</td>
-						<td></td>
-						<td>C1 vs C2</td>
-						<td></td>
-						<td>C3 vs C4</td>
-					</tr>
-					<tr>
-						<td>3:30</td>
-						<td></td>
-						<td>A1 vs A2</td>
-						<td></td>
-						<td>A3 vs A4</td>
-						<td></td>
-						<td>A5 vs A6</td>
-						<td></td>
-						<td>C5 vs C6</td>
-					</tr>
-					<tr>
-						<td>4:20</td>
-						<td></td>
-						<td>C3 vs C5</td>
-						<td></td>
-						<td>C1 vs C4</td>
-						<td></td>
-						<td>B1 vs B6</td>
-						<td></td>
-						<td>C2 vs C6</td>
-					</tr>
-				</tbody>
-			</table>
+			<input type="button" value="Menu" id="menu-button">
+			<div id="nother">
+				<h1>Schedule</h1>
+				<h2>Pools</h2>
+				<p>
+					The pools table will be filled out after the teams have been ranked. This won't be until after the Christmas break.
+				</p>
+				<table cellspacing="0" cellpadding="10" border="1" id="pools">
+					<tbody>
+						<tr>
+							<td></td>
+							<td>Pool A</td>
+							<td></td>
+							<td>Pool B</td>
+							<td></td>
+							<td>Pool C</td>
+						</tr>
+						<tr>
+							<td>A1</td>
+							<td>Team1</td>
+							<td>B1</td>
+							<td>Team1</td>
+							<td>C1</td>
+							<td>Team1</td>
+						</tr>
+						<tr>
+							<td>A2</td>
+							<td>Team2</td>
+							<td>B2</td>
+							<td>Team2</td>
+							<td>C2</td>
+							<td>Team2</td>
+						</tr>
+						<tr>
+							<td>A3</td>
+							<td>Team3</td>
+							<td>B3</td>
+							<td>Team3</td>
+							<td>C3</td>
+							<td>Team3</td>
+						</tr>
+						<tr>
+							<td>A4</td>
+							<td>Team4</td>
+							<td>B4</td>
+							<td>Emmanuel</td>
+							<td>C4</td>
+							<td>Team4</td>
+						</tr>
+						<tr>
+							<td>A5</td>
+							<td>Team5</td>
+							<td>B5</td>
+							<td>Team5</td>
+							<td>C5</td>
+							<td>Team5</td>
+						</tr>
+						<tr>
+							<td>A6</td>
+							<td>Team6</td>
+							<td>B6</td>
+							<td>Team6</td>
+							<td>C6</td>
+							<td>Team6</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="banner">Click your team ID above to find when you play below.</div>
+				<h2>Schedule</h2>
+				<table cellspacing="0" cellpadding="10" border="1">
+					<tbody>
+						<tr>
+							<td>9:00</td>
+							<td></td>
+							<td>A4 vs A5</td>
+							<td></td>
+							<td>A2 vs A3</td>
+							<td></td>
+							<td>A1 vs A6</td>
+							<td></td>
+							<td>C2 vs C5</td>
+						</tr>
+						<tr>
+							<td>9:50</td>
+							<td></td>
+							<td>B3 vs B6</td>
+							<td></td>
+							<td>A2 vs A5</td>
+							<td></td>
+							<td>C1 vs C3</td>
+							<td></td>
+							<td>B1 vs B5</td>
+						</tr>
+						<tr>
+							<td>10:40</td>
+							<td></td>
+							<td>C4 vs C6</td>
+							<td></td>
+							<td>A1 vs A3</td>
+							<td></td>
+							<td>A4 vs A6</td>
+							<td></td>
+							<td>B2 vs B5</td>
+						</tr>
+						<tr>
+							<td>11:30</td>
+							<td></td>
+							<td>C2 vs C4</td>
+							<td></td>
+							<td>C1 vs C5</td>
+							<td></td>
+							<td>B1 vs B3</td>
+							<td></td>
+							<td>C3 vs C6</td>
+						</tr>
+						<tr>
+							<td>12:20</td>
+							<td></td>
+							<td>A1 vs A4</td>
+							<td></td>
+							<td>B2 vs B6</td>
+							<td></td>
+							<td>A3 vs A5</td>
+							<td></td>
+							<td>A2 vs A6</td>
+						</tr>
+						<tr>
+							<td>1:10</td>
+							<td></td>
+							<td>C2 vs C3</td>
+							<td></td>
+							<td>B3 vs B5</td>
+							<td></td>
+							<td>C4 vs C5</td>
+							<td></td>
+							<td>C1 vs C6</td>
+						</tr>
+						<tr>
+							<td>2:00</td>
+							<td></td>
+							<td>B1 vs B2</td>
+							<td></td>
+							<td>A3 vs A6</td>
+							<td></td>
+							<td>A2 vs A4</td>
+							<td></td>
+							<td>A1 vs A5</td>
+						</tr>
+						<tr>
+							<td>2:50</td>
+							<td></td>
+							<td>B2 vs B3</td>
+							<td></td>
+							<td>B5 vs B6</td>
+							<td></td>
+							<td>C1 vs C2</td>
+							<td></td>
+							<td>C3 vs C4</td>
+						</tr>
+						<tr>
+							<td>3:30</td>
+							<td></td>
+							<td>A1 vs A2</td>
+							<td></td>
+							<td>A3 vs A4</td>
+							<td></td>
+							<td>A5 vs A6</td>
+							<td></td>
+							<td>C5 vs C6</td>
+						</tr>
+						<tr>
+							<td>4:20</td>
+							<td></td>
+							<td>C3 vs C5</td>
+							<td></td>
+							<td>C1 vs C4</td>
+							<td></td>
+							<td>B1 vs B6</td>
+							<td></td>
+							<td>C2 vs C6</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</body>
 	<script src="table.js"></script>
