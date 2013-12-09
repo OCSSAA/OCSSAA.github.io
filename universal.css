@@ -63,6 +63,7 @@ nav {
 	background-color: #333;
 	float: left;
 	width: 20%;
+	position: fixed;
 }
 
 #navInner {
@@ -85,6 +86,7 @@ nav {
 .navItem:hover {
 	color: white;
 	border-color: rgb(229, 129, 62);
+	text-decoration: none;
 }
 
 /* Misc */
