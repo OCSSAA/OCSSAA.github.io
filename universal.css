@@ -74,13 +74,15 @@ nav {
 .navItem {
 	display: block;
 	padding: 7% 7px;
-	color: #999;
+	color: #eee;
 	font-weight: bold;
 	font-size: 14px;
 	border-bottom: 1px solid #444;
 	padding-left: 7%;
 	transition: 0.2s;
 	opacity: 0.7;
+	font-family: "Arial";
+	font-size: 16px;
 }
 
 .navItem:hover {
@@ -94,17 +96,23 @@ nav {
 #menu-button {
 	border: none;
 	position: relative;
-	left: calc(-3% + 25px);
-	top: 25px;
+	margin: 3%;
+	margin-left: 0px;
 	background-color: #333;
 	color: white;
 	height: 55px;
 	width: 55px;
 	text-align: center;
 	transition: 0.1s;
+	padding: 0px;
 }
 
 #menu-button:hover {
+	-webkit-transform: rotate(11deg);
+	-moz-transform:    rotate(11deg);
+	-ms-transform:     rotate(11deg);
+	-o-transform:      rotate(11deg);
+	transform:         rotate(11deg);
 	background-color: rgb(229, 129, 62);
 	cursor: pointer;
 }
@@ -140,6 +148,7 @@ nav {
 	display: inline-block;
 	padding-top: 0px;
 	background-color: white;
+	transition: 0.2s;
 }
 
 #nother {
@@ -158,4 +167,8 @@ body {
 	margin: 0px;
 	width: 100%;
 	background-color: #333;
+}
+
+@media screen and (max-width: 1000px;) {
+	
 }
