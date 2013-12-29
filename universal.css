@@ -107,16 +107,6 @@ nav {
 	padding: 0px;
 }
 
-#menu-button:hover {
-	-webkit-transform: rotate(11deg);
-	-moz-transform:    rotate(11deg);
-	-ms-transform:     rotate(11deg);
-	-o-transform:      rotate(11deg);
-	transform:         rotate(11deg);
-	background-color: rgb(229, 129, 62);
-	cursor: pointer;
-}
-
 .map {
 	width: 640px;
 	padding: 2%;
@@ -169,6 +159,30 @@ body {
 	background-color: #333;
 }
 
-@media screen and (max-width: 1000px;) {
-	
+@media (min-width: 1081px) {
+
+	#menu-button:hover {
+		-webkit-transform: rotate(11deg);
+		-moz-transform:    rotate(11deg);
+		-ms-transform:     rotate(11deg);
+		-o-transform:      rotate(11deg);
+		transform:         rotate(11deg);
+		background-color: rgb(229, 129, 62);
+		cursor: pointer;
+	}
+
+}
+
+@media handheld {
+
+	#menu-button:hover {
+		-webkit-transform: rotate(0deg);
+		-moz-transform:    rotate(0deg);
+		-ms-transform:     rotate(0deg);
+		-o-transform:      rotate(0deg);
+		transform:         rotate(0deg);
+		background-color: rgb(229, 129, 62);
+		cursor: pointer;
+	}
+
 }
