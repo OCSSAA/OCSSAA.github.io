@@ -103,8 +103,13 @@ nav {
 	height: 55px;
 	width: 55px;
 	text-align: center;
-	transition: 0.1s;
+	transition: 1s;
 	padding: 0px;
+}
+
+#menu-button:hover {
+	background-color: rgb(229, 129, 62);
+	cursor: pointer;
 }
 
 .map {
@@ -157,32 +162,4 @@ body {
 	margin: 0px;
 	width: 100%;
 	background-color: #333;
-}
-
-@media (min-width: 1081px) {
-
-	#menu-button:hover {
-		-webkit-transform: rotate(11deg);
-		-moz-transform:    rotate(11deg);
-		-ms-transform:     rotate(11deg);
-		-o-transform:      rotate(11deg);
-		transform:         rotate(11deg);
-		background-color: rgb(229, 129, 62);
-		cursor: pointer;
-	}
-
-}
-
-@media handheld {
-
-	#menu-button:hover {
-		-webkit-transform: rotate(0deg);
-		-moz-transform:    rotate(0deg);
-		-ms-transform:     rotate(0deg);
-		-o-transform:      rotate(0deg);
-		transform:         rotate(0deg);
-		background-color: rgb(229, 129, 62);
-		cursor: pointer;
-	}
-
 }
