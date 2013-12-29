@@ -41,6 +41,9 @@ function toggle() {
 			$("nav").css({
 				width: "70%"
 			})
+			$(".navItem").css({
+				fontSize: "300%"
+			})
 		}
 		else {
 			$("#wrapper").css({
@@ -48,6 +51,9 @@ function toggle() {
 			});
 			$("nav").css({
 				width: "20%"
+			})
+			$(".navItem").css({
+				fontSize: "100%"
 			})
 		}
 		setTimeout( function() {
