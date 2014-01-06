@@ -2,13 +2,18 @@ var open_by_user = false;
 
 $(document).ready(function() {
 	
-	var open = true;
-	
 	$("#menu-button").click(toggle);
 	
+	// To be compatible with the media queries in the css
 	if (window.innerWidth <= 1080) {
-		toggle();
+		open = false;
 	}
+	else {
+		open = true;
+	}
+
+	// Do this on load because it causes problems if defined in the css
+	$("#wrapper").css({transition: "all 0.2s ease 0s"});
 
 	setInterval(checkSmaller, 3000);
 
@@ -60,7 +65,7 @@ function toggle() {
 			
 			$("nav").css({
 				display: "block"
-			})
+			});
 
 		}, 200);
 		

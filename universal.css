@@ -5,6 +5,33 @@ rgb(54, 117, 174) - QC Blue
 
 */
 
+@media (max-width: 1079px) {
+	
+	nav {
+		display: none;
+	}
+
+	#wrapper {
+		width: 94%;
+	}
+
+	#nother {
+		width: 80%;
+	}
+
+}
+
+@media (min-width: 1080px) {
+	
+	#wrapper {
+		width: 74%;
+	}
+
+	#nother {
+		width: 60%;
+	}
+
+}
 
 /* Normal stuff */
 
@@ -63,7 +90,6 @@ nav {
 	background-color: #333;
 	float: left;
 	width: 20%;
-	position: fixed;
 }
 
 #navInner {
@@ -137,17 +163,14 @@ nav {
 
 #wrapper {
 	float: right;
-	width: 74%;
 	padding: 3%;
 	margin: 0px auto;
 	display: inline-block;
 	padding-top: 0px;
 	background-color: white;
-	transition: 0.2s;
 }
 
 #nother {
-	max-width: 60%;
 	margin: 0px auto;
 }
 
