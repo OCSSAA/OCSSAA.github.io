@@ -71,6 +71,7 @@ table {
 
 table, td {
 	border: 1px solid #333;
+	text-align: center;
 }
 
 .bold {
@@ -157,6 +158,14 @@ nav {
 
 #pools > tbody > tr:nth-child(1) > td:nth-child(odd) {
 	background-color: white !important;
+}
+
+#pools > tbody > tr:not(:nth-child(1)) > td {
+	cursor: pointer;
+}
+
+#pools > tbody > tr:nth-child(1) > td {
+	cursor: auto !important;
 }
 
 /* Site structure */
