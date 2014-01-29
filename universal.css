@@ -168,6 +168,14 @@ nav {
 	cursor: auto !important;
 }
 
+td > p {
+	margin: 5px 0;
+}
+
+.results > tbody > tr > td {
+	min-width: 83px;
+}
+
 /* Site structure */
 
 #wrapper {
