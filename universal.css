@@ -176,6 +176,10 @@ td > p {
 	min-width: 83px;
 }
 
+td:nth-child(n+8) {
+	min-width: 25px !important;
+}
+
 /* Site structure */
 
 #wrapper {
