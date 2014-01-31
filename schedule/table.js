@@ -1,4 +1,7 @@
-var tds = document.getElementsByTagName('td'),
+var friday = document.querySelector("#friday"),
+	tds = friday.querySelectorAll("td"),
+	pools = document.querySelector("#pools"),
+	pool_tds = pools.querySelectorAll("td"),
 	selected = "";
 
 function check(str) {
@@ -39,9 +42,8 @@ function tdsLoop(what) {
 	}
 }
 
-for (i in tds) {
-	console.log(tds[i].innerHTML);
-	tds[i].onclick = function() {
+for (i in pool_tds) {
+	pool_tds[i].onclick = function() {
 		var selected = this.innerHTML;
 		if (this.previousElementSibling !== null) {
 			var	left = this.previousElementSibling.innerHTML;
