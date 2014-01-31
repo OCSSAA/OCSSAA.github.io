@@ -172,22 +172,27 @@ td > p {
 	margin: 5px 0;
 }
 
+/* Make the results page tables uniform width */
 .results > tbody > tr > td {
 	min-width: 83px;
 }
 
+/* Make the later columns (wins -->) thinner so as to fit the table on the page better */
 td:nth-child(n+8) {
 	min-width: 25px !important;
 }
 
+/* Wins */
 tr > td:nth-child(8) {
 	background: rgba(0, 255, 0, 0.2);
 }
 
+/* Ties */
 tr > td:nth-child(9) {
 	background: rgba(205, 205, 205, 1);
 }
 
+/* Losses */
 tr > td:nth-child(10) {
 	background: rgba(255, 0, 0, 0.2);
 }
