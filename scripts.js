@@ -32,7 +32,8 @@ function toggle() {
 			display: "none"
 		});
 		$("#wrapper").css({
-			left: "0"
+			left: "0",
+			width: "100%"
 		});
 		open = false;
 		open_by_user = false;
