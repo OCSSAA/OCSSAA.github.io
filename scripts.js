@@ -41,7 +41,8 @@ function toggle() {
 	else {
 		if (window.innerWidth <= 1080) {
 			$("#wrapper").css({
-				width: "20%"
+				width: "20%",
+				left: "70%"
 			})
 			$("nav").css({
 				width: "70%"

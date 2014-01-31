@@ -12,7 +12,8 @@ rgb(54, 117, 174) - QC Blue
 	}
 
 	#wrapper {
-		width: 94%;
+		width: 100%;
+		left: 0%;
 	}
 
 	#nother {
@@ -22,10 +23,6 @@ rgb(54, 117, 174) - QC Blue
 }
 
 @media (min-width: 1080px) {
-	
-	#wrapper {
-		width: 74%;
-	}
 
 	#nother {
 		width: 60%;
