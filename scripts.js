@@ -32,7 +32,7 @@ function toggle() {
 			display: "none"
 		});
 		$("#wrapper").css({
-			width: "94%"
+			left: "0"
 		});
 		open = false;
 		open_by_user = false;
@@ -41,7 +41,7 @@ function toggle() {
 	else {
 		if (window.innerWidth <= 1080) {
 			$("#wrapper").css({
-				width: "24%"
+				width: "20%"
 			})
 			$("nav").css({
 				width: "70%"
@@ -52,7 +52,7 @@ function toggle() {
 		}
 		else {
 			$("#wrapper").css({
-				width: "74%"
+				left: "20%"
 			});
 			$("nav").css({
 				width: "20%"
