@@ -12,7 +12,6 @@ rgb(54, 117, 174) - QC Blue
 	}
 
 	#wrapper {
-		width: 100%;
 		left: 0%;
 	}
 
@@ -24,10 +23,26 @@ rgb(54, 117, 174) - QC Blue
 
 @media (min-width: 1080px) {
 
-	#nother {
-		width: 60%;
+	#wrapper {
+		left: 20%;
 	}
 
+	#nother {
+		width: 60%;
+		left: 20%;
+	}
+
+}
+
+#wrapper {
+	padding: 3%;
+	margin: 0px auto;
+	display: inline-block;
+	padding-top: 0px;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	transition: 0.2s;
 }
 
 /* Normal stuff */
@@ -195,17 +210,6 @@ tr > td:nth-child(10) {
 }
 
 /* Site structure */
-
-#wrapper {
-	padding: 3%;
-	margin: 0px auto;
-	display: inline-block;
-	padding-top: 0px;
-	background-color: white;
-	position: absolute;
-	width: 100%;
-	left: 20%;
-}
 
 #nother {
 	margin: 0px auto;
